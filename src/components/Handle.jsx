@@ -12,7 +12,8 @@ const Handle = () => {
                 <div className="col-md-12 text-center p-5">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="row">
+                            <div className="row" data-aos="fade-right"
+                                data-aos-duration="2000">
                                 <div className="col-md-2">
                                     <i className="fa-solid fs-1 ms-5 text-info fa-arrow-up"></i>
                                 </div>
@@ -46,7 +47,8 @@ const Handle = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="row">
+                            <div className="row" data-aos="fade-left"
+                                data-aos-duration="2000">
                                 <div className="col-md-2">
                                     <i className="fa-solid text-info fs-1 ms-5 fa-pen"></i>
                                 </div>
@@ -68,7 +70,8 @@ const Handle = () => {
                 <div className="col-md-12 p-5 text-center">
                     <div className="row">
                         <div className="col-md-4">
-                            <div className="row">
+                            <div className="row" data-aos="fade-right"
+                                data-aos-duration="2000" >
                                 <div className="col-md-2">
                                     <i className="fa-solid fs-1 text-info ms-5 fa-headphones"></i>
                                 </div>
@@ -102,7 +105,8 @@ const Handle = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="row">
+                            <div className="row" data-aos="fade-left"
+                                data-aos-duration="2000">
                                 <div className="col-md-2">
                                     <i className="fa-solid fs-1 ms-5 text-info fa-laptop-code"></i>
                                 </div>

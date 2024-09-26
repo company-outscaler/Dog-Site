@@ -6,7 +6,8 @@ const ContactForm = () => {
             <div className="container">
                 <div className="col-md-12">
                     <div className="row py-5">
-                        <div className="col-md-5">
+                        <div className="col-md-5" data-aos="fade-right"
+                            data-aos-duration="2000">
                             <img src="./img/serious-woman-talking-mobile-phone-outdoor-cafe_1262-19033.jpg" alt=""
                                 width="430" height="390" />
                         </div>

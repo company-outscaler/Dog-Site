@@ -5,7 +5,9 @@ const Docter = () => {
         <section className="hero-section-four">
             <div className="container p-5">
                 <div className="row d-flex">
-                    <div className="col-md-4 p-4" data-aos-duration="500">
+                    <div className="col-md-4 p-4" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div className="card">
                             <img
                                 src="./img/attractive-female-doctor-headscarf-look-side-with-smiling-teeth-with-hands-pocket_8595-25964.jpg"
@@ -26,7 +28,9 @@ const Docter = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 p-4">
+                    <div className="col-md-4 p-4" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div className="card">
                             <img
                                 src="./img/smiling-pretty-female-doctor-with-hands-pockets_1262-10611.jpg"
@@ -47,7 +51,9 @@ const Docter = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 p-4">
+                    <div className="col-md-4 p-4" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                         <div className="card">
                             <img
                                 src="./img/veiled-female-doctor-white-uniform-smiling-while-making-phone-call_8595-25970.jpg"

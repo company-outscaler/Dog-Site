@@ -3,11 +3,13 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className="container px-5">
-            <div className="col-md-12">
+            <div className="col-md-12" data-aos="fade-right"
+                data-aos-duration="2000">
                 <h1 className="text-center fw-bold mb-5">Recent Posts</h1>
 
                 <div className="row" mt-5>
-                    <div className="col-md-8">
+                    <div className="col-md-8" data-aos="fade-right"
+                        data-aos-duration="2000">
                         <div className="bg-secondary-subtle p-3 ">
                             <img src="./img/playful-golden-retriever-closeup_999859-5353.avif" alt="" height="500vh" width="100%" />
                             <h1 style={{ color: 'navy' }}>How Long After a Dog Bite Can You Claim Injury?</h1>
@@ -17,7 +19,8 @@ const Blogs = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 ">
+                    <div className="col-md-4" data-aos="fade-left"
+                        data-aos-duration="2000">
                         <div className="bg-secondary-subtle p-3 text-center">
                             <img src="./img/veterinary-examining-dog-operating-room-with-medical-equipment-veterinary-clinic_1306868-3873.jpg" alt="" height="250vh" width="100%" />
                             <p>8 Aug 2024</p>
@@ -37,7 +40,8 @@ const Blogs = () => {
             </div>
 
             <div className="row d-flex py-5 px-5">
-                <div className="col-md-4">
+                <div className="col-md-4" data-aos="fade-right"
+                    data-aos-duration="2000">
                     <div className="card" style={{ width: '21rem' }}>
                         <img src="./img/girlimages-1.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
@@ -61,7 +65,8 @@ const Blogs = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-md-4" data-aos="fade-left"
+                    data-aos-duration="2000">
                     <div className="card" style={{ width: '21rem' }}>
                         <img src="./img/gettyimages-925156722-1024x1024.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">

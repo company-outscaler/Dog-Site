@@ -6,7 +6,8 @@ const Data = ({ background, heading, paragraph, img }) => {
             <section className="bg" style={{ background: background }}>
                 <div className="container">
                     <div className="row p-5">
-                        <div className="about-text col-md-8 d-flex flex-column justify-content-start p-5">
+                        <div className="about-text col-md-8 d-flex flex-column justify-content-start p-5" data-aos="fade-right"
+                            data-aos-duration="3000">
                             <h1 className="fw-bolder text-black text-start">{heading}</h1>
                             <p className="fw-bolder mb-5 text-white">
                                 {paragraph}
@@ -14,11 +15,11 @@ const Data = ({ background, heading, paragraph, img }) => {
                             </p>
                             <div className="d-flex">
                                 <button onClick={() => navigate('/Contact')} type="button" className="btn btn-info text-white fs-4">Contact us</button>
-                                {/* <button type="button" className="btn btn-outline-info fs-4 text-white ms-5">Show me</button> */}
                             </div>
                         </div>
 
-                        <div className="col-md-4">
+                        <div className="col-md-4" data-aos="fade-left"
+                            data-aos-duration="3000">
                             <div>
                                 <img src={img} className="img-fluid" alt="" width="450px" />
                             </div>

@@ -5,7 +5,8 @@ const Badges = () => {
         <section className="contect-pera">
             <div className="container py-5">
                 <div className="row p-5">
-                    <h1 style={{ color: 'navy' }} className="text-center">
+                    <h1 style={{ color: 'navy' }} className="text-center" data-aos="fade-up"
+                        data-aos-duration="2000">
                         We Will Make Absolutely Any Place <br /> Any Clean, Neat & Tidy.
                     </h1>
                     <p className="text-center p-3 fw-bold text-success">Recent News</p>

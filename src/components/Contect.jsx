@@ -1,4 +1,6 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contect = () => {
 
@@ -9,7 +11,8 @@ const Contect = () => {
             </div>
             <div class="container">
                 <div class="col-md-12">
-                    <div class="row py-5">
+                    <div class="row py-5" data-aos="fade-left"
+                        data-aos-duration="3000">
                         <div class="col-md-5">
                             <img src="./img/serious-woman-talking-mobile-phone-outdoor-cafe_1262-19033.jpg" alt=""
                                 width="500" height="350px" />

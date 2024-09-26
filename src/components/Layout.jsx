@@ -4,7 +4,9 @@ const Layout = () => {
     return (
         <section className="hero-section-two">
             <div className="container p-5">
-                <div className="row">
+                <div className="row" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                     <div className="col-md-8 d-flex flex-column justify-content-start p-5">
                         <h1 className="fw-bolder text-start">As a veterinarian and <br /> lover of animals.</h1>
                         <p className="mb-5 para-width">Lorem ipsum dolor sit amet consectetur adipisicing
@@ -16,7 +18,9 @@ const Layout = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4 p-5">
+                    <div className="col-md-4 p-5" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
                         <div className="embed-responsive embed-responsive">
                             <iframe
                                 width="350"

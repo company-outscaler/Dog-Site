@@ -4,7 +4,8 @@ const Cards = () => {
     return (
         <section className="hero-section-three bg-warning">
             <div className="container py-5">
-                <div className="row p-5 text-white d-flex text-center">
+                <div className="row p-5 text-white d-flex text-center" data-aos="fade-up"
+                    data-aos-duration="2000">
                     <h1 className="bd">Title Here</h1>
                     <p className="fw-bold">
                         Instead of fully detailed illustrations, simplify dog toys like balls and bones into line art.<br />
@@ -13,7 +14,8 @@ const Cards = () => {
                 </div>
 
                 <div className="row d-flex">
-                    <div className="col-md-4 p-4">
+                    <div className="col-md-4 p-4" data-aos="fade-right"
+                        data-aos-duration="2000">
                         <div className="card img-thumbnail" style={{}}>
                             <img
                                 src="./img/close-up-veterinarian-taking-care-dog_23-2149100226.avif"
@@ -22,7 +24,8 @@ const Cards = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
+                    <div className="col-md-4 p-4" data-aos="fade-up"
+                        data-aos-duration="2000">
                         <div className="card img-thumbnail" style={{}}>
                             <img
                                 src="./img/A dog putting their paw in a trainers hand_0.jpg"
@@ -31,7 +34,8 @@ const Cards = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-md-4 p-4">
+                    <div className="col-md-4 p-4" data-aos="fade-left"
+                        data-aos-duration="2000">
                         <div className="card img-thumbnail" style={{}}>
                             <img
                                 src="./img/close-veterinarian-taking-care-dog_23-2149100223.avif"
