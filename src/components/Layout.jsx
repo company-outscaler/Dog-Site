@@ -4,29 +4,32 @@ const Layout = () => {
     return (
         <section className="hero-section-two">
             <div className="container p-5">
-                <div className="row" data-aos="fade-down"
+                <div className="row align-items-center" data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <div className="col-md-8 d-flex flex-column justify-content-start p-5">
-                        <h1 className="fw-bolder text-start">As a veterinarian and <br /> lover of animals.</h1>
+                    {/* Text Section */}
+                    <div className="col-12 col-md-8 d-flex flex-column justify-content-center p-4 p-md-5">
+                        <h1 className="fw-bolder ">As a veterinarian and  lover of animals.</h1>
                         <p className="mb-5 para-width">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Velit maiores officiis<br /> itaque ducimus enim dolorum similique laboriosam. A veniam,
-                            tempora, <br />tempore laboriosam aspernatur ducimus omnis.
+                            elit. Velit maiores officiis itaque ducimus enim dolorum similique laboriosam. A veniam,
+                            tempora, tempore laboriosam aspernatur ducimus omnis.
                         </p>
                         <div className="d-flex">
-                            <button type="button" className="btn btn-warning fs-4 text-white mb-md-4">Click here</button>
+                            <button type="button" className="btn  btn-warning fs-4 text-white mb-4">Click here</button>
                         </div>
                     </div>
 
-                    <div className="col-md-4 p-5" data-aos="fade-down"
+                    {/* Video Section */}
+                    <div className="col-12 col-md-4 p-4 p-md-5" data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1500">
-                        <div className="embed-responsive embed-responsive">
+                        <div className="embed-responsive embed-responsive-16by9">
                             <iframe
-                                width="350"
-                                height="330"
+                                className="w-100"
+                                height="315"
                                 src="https://www.youtube.com/embed/faJWRP_qwqk?si=MTLLN8oW4uvaXqYF"
                                 title="YouTube video player"
+                                allowFullScreen
                             ></iframe>
                         </div>
                     </div>

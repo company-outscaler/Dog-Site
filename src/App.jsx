@@ -9,34 +9,32 @@ import Blogs from './components/Blogs'
 import About from './pages/About'
 import Service from './pages/Service'
 import Contact from './pages/Contact'
-import Data from './components/Data'
-import Handle from './components/Handle'
+import Team from './components/Team'
 
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import TeamDocter from './components/Team'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <>
       <Home />
-      {/* <Navbar /> */}
       <Layout />
       <Cards />
       <Docter />
       <Logos />
-      < Blogs />
-      < Footer />
-
+      <Blogs />
+      <Team />
+      <Footer />
     </>,
   },
   {
     path: "/about",
     element: <About />
   },
-
   {
     path: "/service",
     element: <Service />
@@ -44,15 +42,13 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />
-  }
-
+  },
 ]);
-
-
 
 function App() {
   return (
     <RouterProvider router={router} />
-  )
+  );
 }
-export default App
+
+export default App;

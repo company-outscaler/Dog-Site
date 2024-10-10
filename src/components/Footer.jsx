@@ -7,26 +7,31 @@ const Footer = () => {
                 <div className="col-md-4 p-5 d-flex align-items-start justify-content-center overflow-hidden">
                     <div>
                         <h1 className="text-start">About</h1>
-                        <p>Our program</p>
-                        <p>Team work</p>
-                        <p>Terminal condition</p>
-                        <p>Brand service</p>
+
+                        <div className='text-center'>
+                            <p>Our program</p>
+                            <p>Team work</p>
+                            <p>Terminal condition</p>
+                            <p>Brand service</p>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-md-4 p-5 d-flex align-items-start justify-content-center">
                     <div>
                         <h1 className="text-start">Services</h1>
-                        <p>Our program</p>
-                        <p>Team work</p>
-                        <p>Terminal condition</p>
-                        <p>Brand service</p>
+                        <div className='text-center'>
+                            <p>Our program</p>
+                            <p>Team work</p>
+                            <p>Terminal condition</p>
+                            <p>Brand service</p>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-md-4 p-5">
                     <p className="fs-3 d-flex align-items-start justify-content-center">Title Here</p>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className='text-center'>Lorem ipsum dolor sit amet consectetur.</p>
                     <form action="/action_page.php">
                         <div className="d-flex">
                             <input

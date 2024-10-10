@@ -21,17 +21,15 @@ const Home = () => {
                 <div className="row p-5">
                     <div className="about-text col-md-8 d-flex flex-column justify-content-start p-5" data-aos="fade-right"
                         data-aos-duration="2000">
-                        <h1 className="fw-bolder text-black text-start">First I wanted to be <br />a veterinarian</h1>
+                        <h1 className="fw-bolder text-black text-start">First I wanted to be a veterinarian</h1>
                         <p className="fw-bolder mb-5 text-white">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit <br />
-                            maiores officiis itaque ducimus enim dolorum similique laboriosam. <br />
-                            A veniam, tempora, tempore laboriosam aspernatur ducimus libero totam <br />
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                            maiores officiis itaque ducimus enim dolorum similique laboriosam.
+                            A veniam, tempora, tempore laboriosam aspernatur ducimus libero totam
                             aperiam natus, omnis nesciunt!
                         </p>
                         <div className="d-flex" data-aos="zoom-in">
-                            <button onClick={() => navigate('/Contact')} type="button" className="btn btn-info text-white fs-4">Contact us</button >
-                            <button type="button" className="btn btn-outline-info fs-4 text-white ms-5">Show me</button>
-                        </div>
+                            <button onClick={() => navigate('/Contact')} type="button" className="btn btn-enimi btn-info text-white fs-5">Contact us</button >                        </div>
                     </div>
 
                     <div className="col-md-4" data-aos="fade-left"

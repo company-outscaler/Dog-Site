@@ -4,6 +4,9 @@ import img from '../../public/img/frame.png'
 import Data from "../components/Data"
 import ContactForm from "../components/ContactForm"
 const Contact = () => {
+
+
+    // Add a new document with a generated id.
     return (
         <>
             <Navbar />
