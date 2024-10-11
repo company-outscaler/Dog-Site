@@ -17,9 +17,9 @@ const Home = () => {
     return (
         <section className="bg-warning">
             <Navbar />
-            <div className="container py-5">
+            <div className="container-fluid py-5">
                 <div className="row p-5">
-                    <div className="about-text col-md-8 d-flex flex-column justify-content-start p-5" data-aos="fade-right"
+                    <div className="about-text col-md-7 d-flex flex-column justify-content-start p-5" data-aos="fade-right"
                         data-aos-duration="2000">
                         <h1 className="fw-bolder text-black text-start">First I wanted to be a veterinarian</h1>
                         <p className="fw-bolder mb-5 text-white">
@@ -32,7 +32,7 @@ const Home = () => {
                             <button onClick={() => navigate('/Contact')} type="button" className="btn btn-enimi btn-info text-white fs-5">Contact us</button >                        </div>
                     </div>
 
-                    <div className="col-md-4" data-aos="fade-left"
+                    <div className="col-md-5" data-aos="fade-left"
                         data-aos-duration="2000">
                         <div>
                             <img src="./img/dog(3).png" className="img-fluid" alt="" width="450px" />

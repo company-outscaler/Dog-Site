@@ -3,12 +3,11 @@ import React from 'react';
 const Layout = () => {
     return (
         <section className="hero-section-two">
-            <div className="container p-5">
+            <div className="container-fluid p-5">
                 <div className="row align-items-center" data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    {/* Text Section */}
-                    <div className="col-12 col-md-8 d-flex flex-column justify-content-center p-4 p-md-5">
+                    <div className="col-12 col-md-7 d-flex flex-column justify-content-center p-4 p-md-5">
                         <h1 className="fw-bolder ">As a veterinarian and  lover of animals.</h1>
                         <p className="mb-5 para-width">Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Velit maiores officiis itaque ducimus enim dolorum similique laboriosam. A veniam,
@@ -20,7 +19,7 @@ const Layout = () => {
                     </div>
 
                     {/* Video Section */}
-                    <div className="col-12 col-md-4 p-4 p-md-5" data-aos="fade-down"
+                    <div className="col-12 col-md-5 p-4 p-md-5" data-aos="fade-down"
                         data-aos-easing="linear"
                         data-aos-duration="1500">
                         <div className="embed-responsive embed-responsive-16by9">
